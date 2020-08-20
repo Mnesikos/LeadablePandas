@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "leadablepandas",
+  "version": "${version}",
+
+  "name": "Leadable Pandas",
+  "description": "Transport your pandas minecraft efficiently.",
+  "authors": [
+    "Mnesikos"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/leadable-pandas",
+    "sources": "https://github.com/Mnesikos/LeadablePandas"
+  },
+
+  "license": "GPLv3",
+  "icon": "assets/leadablepandas/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.mnesikos.leadablepandas.LeadablePandas"
+    ]
+  },
+  "mixins": [
+    "leadablepandas.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
